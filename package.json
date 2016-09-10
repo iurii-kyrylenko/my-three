@@ -1,0 +1,21 @@
+{
+  "name": "my-three",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --progress --colors",
+    "build": "webpack -p"
+  },
+  "author": "Iurii Kyrylenko",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.80.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.22.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
